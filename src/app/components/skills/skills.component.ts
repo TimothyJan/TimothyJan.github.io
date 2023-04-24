@@ -21,7 +21,7 @@ export class SkillsComponent {
     "Angular",
     "React",
     "Django",
-    "Django Rest Framework",
+    "Django REST",
     "Flask"
   ];
   tools = [
