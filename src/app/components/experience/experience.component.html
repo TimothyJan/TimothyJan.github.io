@@ -1,0 +1,36 @@
+<section class="section experience">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2">
+        <div class="section_title">Experience & Education</div>
+      </div>
+      <div class="col-lg-10">
+        <div class="section_content">
+          <div
+            class="jobs"
+            *ngFor="let job of jobs">
+            <div class="job">
+              <div class="time-place">
+                <div class="job_position">
+                  <div class="job_company">{{job.position}}</div>
+                </div>
+                <div class="job_time">{{job.time}}</div>
+              </div>
+              <a href="{{job.url}}" target="_blank">{{job.company}}</a>
+              <div
+                class="job_description"
+                *ngFor="let description of job.description">
+                <li>{{description}}</li>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://timothyjan.github.io/Resume - Timothy Jan.pdf" target="_blank" class="arrow-link">View My Resume ➡️</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+

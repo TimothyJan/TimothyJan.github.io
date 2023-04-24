@@ -5,3 +5,183 @@
 @import '@fortawesome/fontawesome-free/scss/brands.scss';
 
 @import 'mdb-angular-ui-kit/assets/scss/mdb.scss';
+
+body, html {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  color: #444452;
+  font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+  line-height: 1.5;
+  width: 100%;
+}
+
+a {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+}
+
+// Sections
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding: 5% 10%;
+}
+
+.section_title {
+  color: #007bff;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: left;
+  width: auto;
+  padding-right: 10%;
+}
+
+.section_content{
+  // position: relative;
+  display: block;
+  // padding-top: 5%;
+  padding-left: 10%;
+  font-weight: 300;
+  font-size: 1rem;
+  width: 100%;
+}
+
+// INTRO
+.intro {
+  // padding: 60px 50px;
+  padding: 2rem 2rem;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.intro_hello {
+  font-weight: 300;
+}
+
+.intro_tagline {
+  font-weight: 300;
+  max-width: 700px;
+}
+
+.intro_tagline .name {
+  font-weight: bold;
+}
+
+.intro_contact {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+// Background
+
+// Skills
+.skills .skillz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-around;
+}
+
+.skills .skillz_category_label {
+  font-weight: bold;
+  color: #36363c;
+  text-transform: uppercase;
+}
+
+.skills .skillz_category_item {
+  margin: 3px 0;
+  font-size: .9rem;
+}
+
+// Experience
+.job {
+  padding-bottom: 2.5%;
+}
+
+.experience .job .time-place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.experience .job_company {
+  font-weight: bold;
+}
+
+.experience .job_time {
+  font-size: .9rem;
+  font-family: Inconsolata,monospace;
+}
+
+// Featured Projects
+.featured-project {
+  padding-bottom: 5%;
+}
+
+// Other Projects
+.project {
+  padding-bottom: 5%;
+}
+
+.project_used {
+  display: flex;
+}
+
+.other-projects .project_used_item:first-of-type {
+  margin-left: 0;
+}
+
+.other-projects .project_used_item {
+  display: inline-block;
+  margin: 3px 3px 3px 0;
+  font-family: Inconsolata,monospace;
+  font-size: .75rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 3px;
+  color: #007bff;
+  border: 1px solid #007bff;
+  background: 0 0;
+}
+
+// footer
+.footer {
+  padding: 5% 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer_copyright {
+  font-weight: 700;
+  width: 200px;
+}

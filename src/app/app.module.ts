@@ -21,10 +21,24 @@ import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { IntroComponent } from './components/intro/intro.component';
+import { BackgroundComponent } from './components/background/background.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { FeaturedProjectsComponent } from './components/featured-projects/featured-projects.component';
+import { OtherProjectsComponent } from './components/other-projects/other-projects.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    IntroComponent,
+    BackgroundComponent,
+    SkillsComponent,
+    ExperienceComponent,
+    FeaturedProjectsComponent,
+    OtherProjectsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
