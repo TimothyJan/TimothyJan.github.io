@@ -74,7 +74,7 @@ export class OtherProjectsComponent implements OnInit{
     let project6 = new Project(
       "https://github.com/TimothyJan/MERN-Movie-Reviewer",
       "Movie Reviewer",
-      "Full stack web app using the MERN stack (MongoDB, Express, React, and Node.js) to CRUD (Create, Read, Update and Delete) movie reviews and ratings.",
+      "Full-stack movie review/rating management system using the MERN stack (MongoDB, Express, React, and Node.js).",
       [
         "JavaScript",
         "HTML",
