@@ -88,7 +88,7 @@ export class ExperienceComponent implements OnInit{
       [
         "Built a workforce management solution for a time keeping company.",
         "Revamped the frontend UI to use the latest frontend UX/UI designs using Angular and Ionic.",
-        "•	Configured MQTT broker/server with Mosquitto to send commands and receive events/messages from devices and automated data pipelining with Python scripting."
+        "Configured MQTT broker/server with Mosquitto to send commands and receive events/messages from devices and automated data pipelining with Python scripting."
       ]
     );
     this.jobs.push(job5, masters, job4, job3, job2, job1, bachelors);
