@@ -34,6 +34,11 @@ a {
   padding: 5% 10%;
 }
 
+.section-colored {
+  @extend .section;
+  background-color: #B4CFEC;
+}
+
 .section_title {
   color: #007bff;
   text-transform: uppercase;
@@ -55,6 +60,10 @@ a {
 }
 
 // INTRO
+.intro-container {
+  background-color: #B4CFEC;
+}
+
 .intro {
   // padding: 60px 50px;
   padding: 2rem 2rem;

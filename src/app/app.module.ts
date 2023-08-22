@@ -28,6 +28,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { FeaturedProjectsComponent } from './components/featured-projects/featured-projects.component';
 import { OtherProjectsComponent } from './components/other-projects/other-projects.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { FooterComponent } from './components/footer/footer.component';
     FeaturedProjectsComponent,
     OtherProjectsComponent,
     FooterComponent,
+    NavBarComponent,
   ],
   imports: [
     BrowserModule,
