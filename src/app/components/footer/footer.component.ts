@@ -11,7 +11,7 @@ export class FooterComponent implements OnInit{
 
   ngOnInit(): void {
     let link1 = new SocialLink("https://github.com/timothyjan", "github");
-    let link2 = new SocialLink("https://www.linkedin.com/in/timothy-jan-533212108/", "linkedin");
+    let link2 = new SocialLink("https://www.linkedin.com/in/timothy-jan-m-s-533212108/", "linkedin");
     this.links.push(link1, link2);
   }
 }
