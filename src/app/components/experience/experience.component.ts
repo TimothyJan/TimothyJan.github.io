@@ -67,9 +67,8 @@ export class ExperienceComponent implements OnInit{
       "March 2019 - November 2020",
       "Process Engineer",
       [
-        "Revamped Python scripts and excel sheets that resulted in analysis and data collection to be faster, scalable and have better exception handling.",
-        "Took on a pivotal role in a cross-functional collaboration effort involving R&D, Regulatory Analysis, Quality, and more, to successfully qualify a new harness for laparoscopic devices.",
-        "Achieved a remarkable 90% reduction in costs while simultaneously enhancing RF energy efficiency, contributing significantly to the company's financial and operational success."
+        "Led cross-functional collaboration between R&D, Regulatory, and Quality teams to qualify a new laparoscopic device harness.",
+        "Achieved a 90% cost reduction while increasing RF energy efficiency, boosting operational performance.",
       ]
     );
     let masters = new Job(
@@ -87,12 +86,9 @@ export class ExperienceComponent implements OnInit{
       "January 2023 - Present",
       "Software Engineer",
       [
-        "Developed a workforce management solution for a time and attendance keeping company.",
-        "Designed and implemented a robust minimal API using ASP.Net Core Web API, SQL Server, and Swagger for seamless data interaction.",
-        "Revamped the frontend UI to align with latest UX/UI designs, utilizing Angular and Ionic frameworks.",
-        "Configured MQTT broker/server with Mosquitto to facilitate communication with devices, enabling command transmission and event handling.",
-        "Automated data pipelining through Python scripting, optimizing data flow efficiency.",
-
+        "Developed a responsive workforce management solution using Angular, optimizing UI for mobile and desktop platforms.",
+        "Created a Python-based MQTT subscriber application with tkinter, leveraging multi-threading for efficient message processing and exporting data to CSV or text formats.",
+        "Automated data pipelines with Python, improving scalability, speed, and exception handling.",
       ]
     );
     this.jobs.push(job5, masters, job4, job3, job2, job1, bachelors);

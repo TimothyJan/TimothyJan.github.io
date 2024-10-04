@@ -112,7 +112,19 @@ export class OtherProjectsComponent implements OnInit{
         "SpringBoot"
       ]
     );
+    let project9 = new Project(
+      "https://github.com/TimothyJan/MQTT-Client",
+      "MQTT Subscriber Client",
+      "Python-based MQTT subscriber application using tkinter for UI, multi-threaded message handling, and data export to CSV or text formats.",
+      [
+        "Python",
+        "Tkinter",
+        "pandas",
+        "paho.mqtt.client",
+      ]
+    );
     this.projects.push(
+      project9,
       project8,
       project7,
       project6,

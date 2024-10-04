@@ -14,12 +14,15 @@ export class SkillsComponent {
     "TypeScript",
     "HTML",
     "CSS",
+    "SQL"
   ];
   frameworks = [
+    "ASP.Net Core",
     "Node",
     "Express",
     "Angular",
     "React",
+    "Ionic",
     "Django",
     "Django REST",
     "Flask"
@@ -28,6 +31,7 @@ export class SkillsComponent {
     "Bash",
     "Git & Github",
     "MongoDB",
+    "SQl Server",
     "Postman",
     "Insomnia"
   ];
