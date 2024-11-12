@@ -81,14 +81,15 @@ export class ExperienceComponent implements OnInit{
       ]
     );
     let job5 = new Job(
-      "",
-      "HelloWorld Consulting LLC",
+      "https://jantek.com/",
+      "Jantek Electronics",
       "January 2023 - Present",
       "Software Engineer",
       [
-        "Developed a responsive workforce management solution using Angular, optimizing UI for mobile and desktop platforms.",
-        "Created a Python-based MQTT subscriber application with tkinter, leveraging multi-threading for efficient message processing and exporting data to CSV or text formats.",
-        "Automated data pipelines with Python, improving scalability, speed, and exception handling.",
+        "Developed a responsive workforce management solution using Angular, optimizing UI for mobile and desktop.",
+        "Created a Python-based MQTT subscriber application with Paho MQTT and tkinter, leveraging multi-threading for efficient real-time message processing and exporting data to Jantek time attendance software.",
+        "Redesigned and integrated custom WordPress themes and plugins to enhance website functionality, SEO, performance, and user experience.",
+        "Automated data pipelines with Python, improving scalability, speed, and exception handling."
       ]
     );
     this.jobs.push(job5, masters, job4, job3, job2, job1, bachelors);

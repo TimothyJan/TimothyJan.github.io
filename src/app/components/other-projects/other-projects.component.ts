@@ -113,6 +113,34 @@ export class OtherProjectsComponent implements OnInit{
       ]
     );
     let project9 = new Project(
+      "https://github.com/TimothyJan/Books-MEAN",
+      "Books-MEAN",
+      "Full-stack book review management system using Google Books API, MEAN stack (MongoDB, Express, Angular, Node), and Bootstrap.",
+      [
+        "MongoDB",
+        "Express",
+        "Angular",
+        "Node",
+        "Bootstrap",
+        "Google Books API",
+        "Typescript",
+        "Javascript"
+      ]
+    );
+    let project10 = new Project(
+      "https://github.com/TimothyJan/TodoList-ASP.NetCore-MinimalAPI-Angular",
+      "TodoList",
+      "Full-stack Todo List app with an ASP.Net Core Minimal API and a dynamic Angular Material frontend, successfully deployed to Azure.",
+      [
+        "ASP.Net Core",
+        "Angular",
+        "Azure",
+        "C#",
+        "Typescript",
+        "Javascript"
+      ]
+    );
+    let project11 = new Project(
       "https://github.com/TimothyJan/MQTT-Client",
       "MQTT Subscriber Client",
       "Python-based MQTT subscriber application using tkinter for UI, multi-threaded message handling, and data export to CSV or text formats.",
@@ -120,10 +148,12 @@ export class OtherProjectsComponent implements OnInit{
         "Python",
         "Tkinter",
         "pandas",
-        "paho.mqtt.client",
+        "paho.mqtt.client"
       ]
     );
     this.projects.push(
+      project11,
+      project10,
       project9,
       project8,
       project7,
