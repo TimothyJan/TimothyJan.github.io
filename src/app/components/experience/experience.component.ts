@@ -45,8 +45,8 @@ export class ExperienceComponent implements OnInit{
       "June 2018 - January 2019",
       "Electrical Engineer I",
       [
-        "Diagnosed medical devices to discern and isolate firmware and software issues using data acquisition and measurement equipment, including oscilloscopes, digital multimeters (DMMs), and arbitrary waveform generators (AWGs).",
-        "Employed data analysis techniques to create comprehensive Quality and R&D reports, contributing to the refinement and advancement of future product iterations.",
+        "Diagnosed firmware and software issues in medical devices using data acquisition tools.",
+        "Analyzed data for Quality and R&D reports, driving product enhancements.",
         "Developed and refined sequences and modules utilizing proprietary development tools, integral to the advancement and testing of implantable medical devices within the St. Jude Medical division."
       ]
     );
@@ -67,8 +67,8 @@ export class ExperienceComponent implements OnInit{
       "March 2019 - November 2020",
       "Process Engineer",
       [
-        "Led cross-functional collaboration between R&D, Regulatory, and Quality teams to qualify a new laparoscopic device harness.",
-        "Achieved a 90% cost reduction while increasing RF energy efficiency, boosting operational performance.",
+        "Led cross-functional collaboration among R&D, Regulatory, and Quality teams to qualify a new laparoscopic device harness.",
+        "Reduced costs by 90% and improved RF energy efficiency, enhancing operational performance.",
       ]
     );
     let masters = new Job(
@@ -86,9 +86,9 @@ export class ExperienceComponent implements OnInit{
       "January 2023 - Present",
       "Software Engineer",
       [
-        "Developed a responsive workforce management solution using Angular, optimizing UI for mobile and desktop.",
-        "Created a Python-based MQTT subscriber application with Paho MQTT and tkinter, leveraging multi-threading for efficient real-time message processing and exporting data to Jantek time attendance software.",
-        "Redesigned and integrated custom WordPress themes and plugins to enhance website functionality, SEO, performance, and user experience.",
+        "Developed a responsive workforce management solution using Angular for mobile/desktop UI optimization.",
+        "Built a Python-based MQTT subscriber app with multi-threading for real-time message processing and data export to time attendance software.",
+        "Redesigned and integrated custom WordPress themes/plugins to enhance SEO, performance, and user experience.",
         "Automated data pipelines with Python, improving scalability, speed, and exception handling."
       ]
     );
