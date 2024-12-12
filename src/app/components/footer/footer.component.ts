@@ -1,17 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { SocialLink } from 'src/app/model/social-link';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss']
 })
-export class FooterComponent implements OnInit{
-  links = new Array<SocialLink>;
-
-  ngOnInit(): void {
-    let link1 = new SocialLink("https://github.com/timothyjan", "github");
-    let link2 = new SocialLink("https://www.linkedin.com/in/timothy-jan-m-s-533212108/", "linkedin");
-    this.links.push(link1, link2);
-  }
+export class FooterComponent{
+  currentYear = new Date().getFullYear();
 }

@@ -1,16 +1,14 @@
-<footer class="footer" id="footer">
-  <div class="footer_copyright">
-    <div class="top">
-      <span>Developed by Tim Jan</span>
-    </div>
-  </div>
-  <div
-    class="footer_links"
-    *ngFor="let link of links">
-    <a href="{{link.url}}" target="_blank" title="{{link.title}}">
-      <span class="text">{{link.title}}</span>
-      &nbsp;
-      <img src="assets/images/Social/{{link.title}}.svg" alt="{{link.title}}">
+<footer class="footer text-center py-3 shadow">
+  <p class="mb-0 text-muted">
+    Created by Timothy Jan
+  <br>
+    <a href="https://github.com/timothyjan" target="_blank" aria-label="Github" class="social-icon p-2">
+      <i class="fab fa-github"></i>
     </a>
-  </div>
+    <a href="https://www.linkedin.com/in/timothy-jan-m-s-533212108/" target="_blank" aria-label="Github" class="social-icon">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+  <br>
+    &copy; <span id="current-year">{{ currentYear }}</span>
+  </p>
 </footer>

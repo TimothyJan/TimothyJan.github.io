@@ -6,6 +6,10 @@
 
 @import 'mdb-angular-ui-kit/assets/scss/mdb.scss';
 
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+
 body, html {
   margin: 0;
   padding: 0;
@@ -174,26 +178,6 @@ a {
   color: #007bff;
   border: 1px solid #007bff;
   background: 0 0;
-}
-
-// footer
-.footer {
-  padding: 2.5% 2.5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #B4CFEC;
-}
-
-.footer_copyright {
-  font-weight: 700;
-  width: 200px;
 }
 
 .black-text {

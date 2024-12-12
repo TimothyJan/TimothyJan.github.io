@@ -29,6 +29,7 @@ import { FeaturedProjectsComponent } from './components/featured-projects/featur
 import { OtherProjectsComponent } from './components/other-projects/other-projects.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -60,6 +61,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
