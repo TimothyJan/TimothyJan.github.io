@@ -141,6 +141,18 @@ export class OtherProjectsComponent implements OnInit{
       ]
     );
     let project11 = new Project(
+      "https://github.com/TimothyJan/Music-Controller-Web-App",
+      "Spotify Music Controller",
+      "Collaborative music playing full stack web app integrated with the third party Spotify API using Python(Django/Django Rest Framework) and Javascript(React).",
+      [
+        "Django",
+        "Django Rest framework",
+        "Python",
+        "Javascript",
+        "React"
+      ]
+    );
+    let project12 = new Project(
       "https://github.com/TimothyJan/MQTT-Client",
       "MQTT Subscriber Client",
       "Python-based MQTT subscriber application using tkinter for UI, multi-threaded message handling, and data export to CSV or text formats.",
@@ -152,6 +164,7 @@ export class OtherProjectsComponent implements OnInit{
       ]
     );
     this.projects.push(
+      project12,
       project11,
       project10,
       project9,
