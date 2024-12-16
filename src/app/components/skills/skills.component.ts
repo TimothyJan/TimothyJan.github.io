@@ -8,32 +8,34 @@ import { Component } from '@angular/core';
 export class SkillsComponent {
   languages = [
     "Python",
-    "C++",
-    "Java",
+    "C#",
     "JavaScript",
     "TypeScript",
-    "HTML",
-    "CSS",
+    "HTML/CSS",
+    "C++",
+    "Java",
     "SQL"
   ];
   frameworks = [
-    "ASP.Net Core",
     "Node",
     "Express",
     "Angular",
     "React",
-    "Ionic",
-    "Django",
-    "Django REST",
-    "Flask"
-  ];
-  tools = [
-    "Bash",
+    "ASP.Net Core",
+    "Entity Framework Core",
+    "Bootstrap",
     "Git & Github",
-    "MongoDB",
-    "SQl Server",
+    "WordPress",
+    "Jupyter Notebook",
+    "Swagger",
     "Postman",
-    "Insomnia"
+    "Flask",
+    "Django",
   ];
-
+  databases = [
+    "SQL Server",
+    "Azure SQL",
+    "AWS RDS",
+    "MongoDB"
+  ];
 }
